@@ -32,7 +32,7 @@ console.log(country);
 // country = 'Austria'; // returns error - cannot reassign constant variable
 console.log(country);
 
-*/
+
 // Coding assignment 4 - Basic operators
 
 let myCountry = 'Poland';
@@ -47,13 +47,36 @@ myCountryPopulation++;
 console.log(myCountryPopulation);
 
 let finlandPopulation = 6;
-console.log(finlandPopulation > myCountryPopulation); // false - 41 is higher than 6; 
+console.log(finlandPopulation > myCountryPopulation); // false - 41 is higher than 6;
 
 let averagePopulation = 33;
-console.log(averagePopulation > myCountryPopulation); // false  - 41 is higher than 33; 
+console.log(averagePopulation > myCountryPopulation); // false  - 41 is higher than 33;
 
 let description = myCountry + ' is in ' + continent + ', and its ' + myCountryPopulation + ' million people speak ' + myCountryLanguage + '.'
 
 console.log(description);
+*/
 
+// Coding assignment 5 - Template literals
+
+let myCountry = 'Poland';
+let continent = 'Europe';
+let myCountryLanguage = 'Polish';
+let myCountryPopulation = 40;
+
+let description = `${myCountry} is in ${continent}, and its ${myCountryPopulation} million people speak ${myCountryLanguage}.`
+
+console.log(description);
+
+
+// Coding assignment 6 - Taking decisions: if/else statements
+
+
+let averagePopulation = 33;
+
+if (myCountryPopulation > averagePopulation) {
+    console.log(`${myCountry}'s population is above average.`)
+} else {
+    console.log(`${myCountry}'s population is ${averagePopulation - myCountryPopulation} million below average.`)
+}
 
