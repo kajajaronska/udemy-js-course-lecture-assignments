@@ -79,12 +79,25 @@ if (myCountryPopulation > averagePopulation) {
 } else {
     console.log(`${myCountry}'s population is ${averagePopulation - myCountryPopulation} million below average.`)
 }
-*/
 
-// Coding assignment 7 - Type conversion and Coercion 
+
+// Coding assignment 7 - Type conversion and Coercion
 
 console.log('9' + '5'); // returns '95'
 console.log('19' - '13' + '17') // returns '617'
-console.log('19' - '13' + 17); // returns 23; 
-console.log('123' < 57); // returns false; 
-console.log(5 + 6 + '4' + 9 - 4 - 2); // returns 1143; 
+console.log('19' - '13' + 17); // returns 23;
+console.log('123' < 57); // returns false;
+console.log(5 + 6 + '4' + 9 - 4 - 2); // returns 1143;
+*/
+
+// Coding assignment 8 - Equlatiy operators == vs. ===
+
+let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+    console.log('More than 1 border!');
+} else {
+    console.log('No borders!');
+}
