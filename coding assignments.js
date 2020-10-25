@@ -55,7 +55,7 @@ console.log(averagePopulation > myCountryPopulation); // false  - 41 is higher t
 let description = myCountry + ' is in ' + continent + ', and its ' + myCountryPopulation + ' million people speak ' + myCountryLanguage + '.'
 
 console.log(description);
-*/
+
 
 // Coding assignment 5 - Template literals
 
@@ -79,4 +79,12 @@ if (myCountryPopulation > averagePopulation) {
 } else {
     console.log(`${myCountry}'s population is ${averagePopulation - myCountryPopulation} million below average.`)
 }
+*/
 
+// Coding assignment 7 - Type conversion and Coercion 
+
+console.log('9' + '5'); // returns '95'
+console.log('19' - '13' + '17') // returns '617'
+console.log('19' - '13' + 17); // returns 23; 
+console.log('123' < 57); // returns false; 
+console.log(5 + 6 + '4' + 9 - 4 - 2); // returns 1143; 
