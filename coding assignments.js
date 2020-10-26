@@ -101,10 +101,9 @@ if (numNeighbours === 1) {
 } else {
     console.log('No borders!');
 }
-*/
 
 
-// Coding assignment 9 - Logical operators 
+// Coding assignment 9 - Logical operators
 
 const myCountry = 'Poland';
 const continent = 'Europe';
@@ -119,3 +118,29 @@ if (myCountryLanguage === 'English' && myCountryPopulation < 50 && !isIsland) {
     console.log("Poland doesn't meet your criteria :(");
 }
 
+*/
+
+// Coding assignment 10 - The switch statement 
+
+const language = 'mandarin';
+
+switch (language) {
+    case 'chinese':
+    case 'mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'english':
+        console.log('3rd place');
+        break;
+    case 'hindi':
+        console.log('Number 4');
+        break;
+    case 'arabic':
+        console.log('5th most spoken language');
+        break;
+    default:
+        console.log('Great language too!');
+}
