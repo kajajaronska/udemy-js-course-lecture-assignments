@@ -88,9 +88,9 @@ console.log('19' - '13' + '17') // returns '617'
 console.log('19' - '13' + 17); // returns 23;
 console.log('123' < 57); // returns false;
 console.log(5 + 6 + '4' + 9 - 4 - 2); // returns 1143;
-*/
 
-// Coding assignment 8 - Equlatiy operators == vs. ===
+
+// Coding assignment 8 - Equality operators == vs. ===
 
 let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
 
@@ -101,3 +101,21 @@ if (numNeighbours === 1) {
 } else {
     console.log('No borders!');
 }
+*/
+
+
+// Coding assignment 9 - Logical operators 
+
+const myCountry = 'Poland';
+const continent = 'Europe';
+const myCountryLanguage = 'Polish';
+let myCountryPopulation = 40;
+
+const isIsland = false;
+
+if (myCountryLanguage === 'English' && myCountryPopulation < 50 && !isIsland) {
+    console.log('You should live in Poland');
+} else {
+    console.log("Poland doesn't meet your criteria :(");
+}
+
