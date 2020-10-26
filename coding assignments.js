@@ -118,11 +118,12 @@ if (myCountryLanguage === 'English' && myCountryPopulation < 50 && !isIsland) {
     console.log("Poland doesn't meet your criteria :(");
 }
 
-*/
+
 
 // Coding assignment 10 - The switch statement 
 
 const language = 'mandarin';
+
 
 switch (language) {
     case 'chinese':
@@ -144,3 +145,16 @@ switch (language) {
     default:
         console.log('Great language too!');
 }
+
+*/
+
+// Coding assignment 11 - The conditional (ternary) operator
+
+const myCountry = 'Poland';
+const continent = 'Europe';
+const myCountryLanguage = 'Polish';
+let myCountryPopulation = 40;
+
+myCountryPopulation > 33 ? console.log(`${myCountry}'s population is above average`) :
+    console.log(`${myCountry}'s population is below average`);
+
