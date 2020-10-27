@@ -120,7 +120,7 @@ if (myCountryLanguage === 'English' && myCountryPopulation < 50 && !isIsland) {
 
 
 
-// Coding assignment 10 - The switch statement 
+// Coding assignment 10 - The switch statement
 
 const language = 'mandarin';
 
@@ -146,7 +146,7 @@ switch (language) {
         console.log('Great language too!');
 }
 
-*/
+
 
 // Coding assignment 11 - The conditional (ternary) operator
 
@@ -157,4 +157,37 @@ let myCountryPopulation = 40;
 
 myCountryPopulation > 33 ? console.log(`${myCountry}'s population is above average`) :
     console.log(`${myCountry}'s population is below average`);
+
+*/
+
+// JAVASCRIPT FUNDAMENTALS - PART 2
+
+// Coding assignment 1 - Functions
+
+function describeCountry(country, population, capitalCity) {
+    return `${country} has ${population} million people and its capital city is ${capitalCity}`;
+}
+
+const poland = describeCountry('Poland', 40, 'Warsaw');
+const seychelles = describeCountry('Seychelles', 0.096, 'Victoria');
+const russia = describeCountry('Russia', 144.5, 'Moscow');
+
+console.log(poland);
+console.log(russia);
+console.log(seychelles);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
