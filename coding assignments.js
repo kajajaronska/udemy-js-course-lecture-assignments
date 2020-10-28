@@ -158,7 +158,7 @@ let myCountryPopulation = 40;
 myCountryPopulation > 33 ? console.log(`${myCountry}'s population is above average`) :
     console.log(`${myCountry}'s population is below average`);
 
-*/
+
 
 // JAVASCRIPT FUNDAMENTALS - PART 2
 
@@ -175,6 +175,33 @@ const russia = describeCountry('Russia', 144.5, 'Moscow');
 console.log(poland);
 console.log(russia);
 console.log(seychelles);
+*/
+
+
+// Coding assignment 2 - Function Declarations vs. Expressions
+
+// Function Declaration
+
+function percentageOfWorld1(population) {
+    return population / 7900 * 100;
+}
+
+const populationPolandVSworld1 = percentageOfWorld1(37.9);
+const populationFinlandVSworld1 = percentageOfWorld1(5.5);
+const populationUnitedStatesVSworld1 = percentageOfWorld1(328.2);
+console.log(populationPolandVSworld1, populationFinlandVSworld1, populationUnitedStatesVSworld1);
+
+// Function Expression
+
+const percentageOfWorld2 = function (population) {
+    return population / 7900 * 100;
+}
+
+const populationPolandVSworld2 = percentageOfWorld2(37.9)
+const populationFinlandVSworld2 = percentageOfWorld2(5.5);
+const populationUnitedStatesVSworld2 = percentageOfWorld2(328.2);
+
+console.log(populationPolandVSworld2, populationFinlandVSworld2, populationUnitedStatesVSworld2);
 
 
 
