@@ -175,7 +175,7 @@ const russia = describeCountry('Russia', 144.5, 'Moscow');
 console.log(poland);
 console.log(russia);
 console.log(seychelles);
-*/
+
 
 
 // Coding assignment 2 - Function Declarations vs. Expressions
@@ -202,9 +202,15 @@ const populationFinlandVSworld2 = percentageOfWorld2(5.5);
 const populationUnitedStatesVSworld2 = percentageOfWorld2(328.2);
 
 console.log(populationPolandVSworld2, populationFinlandVSworld2, populationUnitedStatesVSworld2);
+*/
 
+// Coding assignment 3 - Arrow functions
 
+const percentageOfWorld3 = population => population / 7900 * 100;
 
+const populationGermanyVSworld = percentageOfWorld3(83);
+
+console.log(populationGermanyVSworld);
 
 
 
