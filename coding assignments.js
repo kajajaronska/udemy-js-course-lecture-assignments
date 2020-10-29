@@ -202,7 +202,7 @@ const populationFinlandVSworld2 = percentageOfWorld2(5.5);
 const populationUnitedStatesVSworld2 = percentageOfWorld2(328.2);
 
 console.log(populationPolandVSworld2, populationFinlandVSworld2, populationUnitedStatesVSworld2);
-*/
+
 
 // Coding assignment 3 - Arrow functions
 
@@ -212,6 +212,20 @@ const populationGermanyVSworld = percentageOfWorld3(83);
 
 console.log(populationGermanyVSworld);
 
+*/
+
+// Coding assignment 4 - Functions calling other functions
+
+const percentageOfWorld1 = population => population / 7900 * 100;
+
+function describePopulation(country, population) {
+    const percentage = percentageOfWorld1(population);
+    return `${country} has ${population} million people, which is about ${percentage}% of the world.`;
+}
+
+console.log(describePopulation('Poland', 38));
+console.log(describePopulation('Finland', 5.5));
+console.log(describePopulation('Germany', 83));
 
 
 
