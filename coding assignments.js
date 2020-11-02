@@ -244,6 +244,18 @@ percentages[3] = percentageOfWorld1(populations[3]);
 
 console.log(percentages);
 
+// Coding assignment 6 - Basic array operators
+
+const neighboursOfPoland = ['Germany', 'Russia', 'Lithuania', "Belarus", 'Ukraine', 'Slovakia', 'Czech Republic'];
+
+neighboursOfPoland.push('Utopia'); // Adding element in the end of the array
+neighboursOfPoland.pop();
+
+neighboursOfPoland.includes('Germany') ? console.log("Central european country!") : console.log("Probably not a central European country!");
+
+neighboursOfPoland[neighboursOfPoland.indexOf('Ukraine')] = 'Sweden';
+
+console.log(neighboursOfPoland);
 
 
 
