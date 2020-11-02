@@ -212,11 +212,11 @@ const populationGermanyVSworld = percentageOfWorld3(83);
 
 console.log(populationGermanyVSworld);
 
-*/
+
 
 // Coding assignment 4 - Functions calling other functions
 
-const percentageOfWorld1 = population => population / 7900 * 100;
+const percentageOfWorld1 = (population) => population / 7900 * 100;
 
 function describePopulation(country, population) {
     const percentage = percentageOfWorld1(population);
@@ -227,8 +227,22 @@ console.log(describePopulation('Poland', 38));
 console.log(describePopulation('Finland', 5.5));
 console.log(describePopulation('Germany', 83));
 
+*/
 
+// Coding assignment 5 - Introduction to arrays
 
+const percentageOfWorld1 = (population) => population / 7900 * 100;
+const populations = [38, 5.5, 83, 112];
+
+console.log(populations.length === 4);
+
+const percentages = [];
+percentages[0] = percentageOfWorld1(populations[0]);
+percentages[1] = percentageOfWorld1(populations[1]);
+percentages[2] = percentageOfWorld1(populations[2]);
+percentages[3] = percentageOfWorld1(populations[3]);
+
+console.log(percentages);
 
 
 
