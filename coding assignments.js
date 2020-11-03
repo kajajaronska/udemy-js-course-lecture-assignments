@@ -255,7 +255,7 @@ neighboursOfPoland.includes('Germany') ? console.log("Central european country!"
 neighboursOfPoland[neighboursOfPoland.indexOf('Ukraine')] = 'Sweden';
 
 console.log(neighboursOfPoland);
-*/
+
 
 
 // Coding assignment 7 - Introduction to objects
@@ -278,6 +278,31 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry.population);
 
+*/
+
+// Coding assignment 8 - Object methods
+
+const myCountry = {
+    country: 'Poland',
+    capital: 'Warsaw',
+    language: 'Polish',
+    population: 33,
+    neighbours: ['Germany', 'Russia', 'Lithuania', "Belarus", 'Ukraine', 'Slovakia', 'Czech Republic'],
+
+    describe: function () {
+        console.log(`${this.country} has ${this.population} million ${this.language} speaking people, ${this.neighbours.length} neighbours and a capital called ${this.capital}.`);
+    },
+
+    checkIsIsland: function () {
+        this.checkIsland = this.neighbours.length === 0 ? true : false;
+        return this.checkIsland;
+    }
+};
+
+myCountry.describe();
+myCountry.checkIsIsland();
+
+console.log(myCountry.checkIsland);
 
 
 
