@@ -227,7 +227,6 @@ console.log(describePopulation('Poland', 38));
 console.log(describePopulation('Finland', 5.5));
 console.log(describePopulation('Germany', 83));
 
-*/
 
 // Coding assignment 5 - Introduction to arrays
 
@@ -256,6 +255,32 @@ neighboursOfPoland.includes('Germany') ? console.log("Central european country!"
 neighboursOfPoland[neighboursOfPoland.indexOf('Ukraine')] = 'Sweden';
 
 console.log(neighboursOfPoland);
+*/
+
+
+// Coding assignment 7 - Introduction to objects
+
+const myCountry = {
+    country: 'Poland',
+    capital: 'Warsaw',
+    language: 'Polish',
+    population: 33,
+    neighbours: ['Germany', 'Russia', 'Lithuania', "Belarus", 'Ukraine', 'Slovakia', 'Czech Republic']
+};
+
+// Coding assignment 8 - Dot vs. Bracket Notation
+
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language} speaking people, ${myCountry.neighbours.length} neighbours and a capital called ${myCountry.capital}.`);
+
+myCountry.population += 2;
+console.log(myCountry.population);
+
+myCountry['population'] -= 2;
+console.log(myCountry.population);
+
+
+
+
 
 
 
