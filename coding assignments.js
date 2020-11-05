@@ -302,7 +302,6 @@ myCountry.describe();
 myCountry.checkIsIsland();
 
 console.log(myCountry.checkIsland);
-*/
 
 
 // Coding assignment 9 - The for loop
@@ -312,8 +311,19 @@ for (let voter = 1; voter <= 50; voter++) {
 }
 
 
+*/
 
+// Coding assignment 10 - Looping arrays, breaking and continuing
 
+const populations = [38, 5.5, 83, 112];
+const percentageOfWorld1 = (population) => population / 7900 * 100;
+const percentages2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+    percentages2.push(percentageOfWorld1(populations[i]));
+};
+
+console.log(percentages2);
 
 
 
