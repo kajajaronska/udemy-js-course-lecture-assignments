@@ -278,7 +278,6 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry.population);
 
-*/
 
 // Coding assignment 8 - Object methods
 
@@ -303,6 +302,14 @@ myCountry.describe();
 myCountry.checkIsIsland();
 
 console.log(myCountry.checkIsland);
+*/
+
+
+// Coding assignment 9 - The for loop
+
+for (let voter = 1; voter <= 50; voter++) {
+    console.log(`Voter number ${voter} is voting!`);
+}
 
 
 
