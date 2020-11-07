@@ -311,7 +311,7 @@ for (let voter = 1; voter <= 50; voter++) {
 }
 
 
-*/
+
 
 // Coding assignment 10 - Looping arrays, breaking and continuing
 
@@ -326,6 +326,32 @@ for (let i = 0; i < populations.length; i++) {
 console.log(percentages2);
 
 
+// Coding assignment 11 - Looping backwards and Loops in loops
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+
+    for (let y = 0; y < listOfNeighbours[i].length; y++)
+    console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+
+}
+
+*/
+
+// Coding assignment 12 - THe while Loop 
+
+const populations = [38, 5.5, 83, 112];
+const percentageOfWorld1 = (population) => population / 7900 * 100;
+const percentages3 = [];
+
+let n = 0;
+while (n <= populations.length - 1) {
+    percentages3.push(percentageOfWorld1(populations[n]));
+    n++;
+};
+
+console.log(percentages3);
 
 
 
